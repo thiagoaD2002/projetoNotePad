@@ -1,5 +1,3 @@
-
-
 class eventoBlocoNotas{
     constructor(){
         this.blocoNotas = document.getElementById('iTextBloco')
