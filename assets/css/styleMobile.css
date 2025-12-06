@@ -1,6 +1,3 @@
-
-
-
 @media screen and (max-width: 768px){
    
     /* ===================== CABEÇALHO ==================== */
@@ -25,78 +22,16 @@
 
 
     .menuOutros > p, .tamFontes{
-        font-family: 'IBM Plex';
         margin: auto;
-        
     }
     .menuCor{
         padding-right: 10px;
         margin: auto;
     }
 
-    #iconColor{
-        cursor: pointer;
-        width: 22px;
-        margin-left: 20px;
-    }
-
-    .iconDark{
-        display: none;
-        cursor: pointer;
-        width: 22px;
-        margin-left: 20px;
-    }
-
-    #Icolor{
-        width: 35px;
-        border: none;
-        cursor: pointer;
-        margin-left: 5px;
-        
-    }
-
-    #menuBold, #menuUnderline, #menuItalic{
-        cursor: pointer;
-        width: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 2px;
-        transition: .3s;
-    }
-    #menuBold:hover, #menuUnderline:hover, #menuItalic:hover{
-        background-color: #E9E9E9;
-    } 
 
 
-/* ===================== INPUT TEXTO ==================== */
 
-    main{
-        margin: auto;
-        margin-top: 30px;
-        width: 70%;
-       
-    }
-
-    #iTextBloco{
-        margin: auto;
-        max-width: 100%;
-        min-width: 100%;
-        min-height: 500px;
-
-        font-size: 12px;
-        padding: 5px;
-
-        border: 1px solid #d1d1d1f3;
-        border-radius: 10px;
-        resize: none;
-
-    }
-
-    #iTextBloco:focus{
-        border-color: #444;
-        outline: none;
-    }
 
 
 }
