@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/stylePrincipal.css">
+    <link rel="stylesheet" href="/assets/css/styleMobile.css">
+    <link rel="stylesheet" href="/assets/css/fontes.css">
+    <link rel="stylesheet" href="/assets/css/temeDark.css">
+
+    <title>NotePad</title>
+    
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <img class="iconSite" src="assets/midia/notePadIcon.svg"  alt="notePadIcon">
+            <h1>NOTE <br> PAD</h1>
+        </div>
+        <div class="temaSite">
+            <img class="darkModeIcon" src="assets/midia/darkMode.svg" alt="Dark Mode">
+        </div>
+    </header>
+
+    <nav class="ferramentas">
+        <section class="menuFontes">
+            <p class="iconFerramentas">T</p>
+            <select class="SelectArea mudaFontes" name="select" id="iSelect" >
+                <option class="fontesOption mudaFontes" value="Arial">Arial</option>
+                <option class="fontesOption" value="Roboto">Roboto</option>
+                <option class="fontesOption" value="Poppins">Poppins</option>
+                <option class="fontesOption" value="Fira Sans">Fira Sans</option>
+            </select>
+        
+        </section>
+
+        <section class="menuOutros">
+
+            <select class="tamFontes SelectArea" name="tamFontes" id="iTamFontes" >
+                <option value="12">12</option>
+                <option value="14">14</option>
+                <option value="16">16</option>
+                <option value="18">18</option>
+                <option value="22">22</option>
+                <option value="24">24</option>
+                <option value="28">28</option>
+            </select>
+
+            <p class="menuItalic iconFerramentas" id="menuItalic">I</p>
+
+            <p  class="menuUnderline iconFerramentas" id="menuUnderline">U</p>
+
+            <p class="menuBold iconFerramentas" id="menuBold">B</p>
+
+        </section>
+
+        <section class="menuCor">
+
+            <label for="Icolor"><img id="iconColor" src="./assets/midia/corIcon.svg" alt="Icon Color"></label> 
+            <label for="Icolor"><img  class="iconDark" id="iconDark" src="./assets/midia/iconDark.svg" alt="Icon Color"></label>
+            <input class="colorInput" type="color" name="color" id="Icolor">
+
+
+        </section>
+
+      
+    </nav>
+
+    <main>
+        <div contenteditable="true" id="iTextBloco"></div>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/themeDark.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+.bodyDark{
+    background-color: #232323;
+    transition: .2s;
+    
+}
+
+.headerDark{
+    animation: colorAnima 2s forwards linear;
+    background-color: #191919;
+
+}
+
+.navDark{
+    background-color: #1b1b1b;
+}
+
+.navDark::-webkit-scrollbar{
+    background-color: #1b1b1b;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.navDark::-webkit-scrollbar-thumb{
+    background-color: #9f9f9f;
+    border-radius: 4px;
+}
+
+.menusDark{
+    color: #f0f0f0d2;
+    
+}
+.ferrasDark{
+    background-color: rgba(146, 146, 146, 0.337);
+    border-color: #f8f8f8;
+}
+.menusDark:hover{
+    background-color: rgb(146, 146, 146) !important;
+}
+.iconDesat{
+    display: none;
+}
+.iconAtivo{
+    display: block;
+}
+
+.selectDark{
+    background-color: #252525 !important;
+    color: #f8f8f8bc;
+}
+
+.textAreaDark{
+    color: #f8f8f8;
+    border-color: #f8f8f8;
+}
+

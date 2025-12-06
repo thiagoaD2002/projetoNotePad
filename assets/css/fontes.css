@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf) format('truetype');
+
+    
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'IBM Plex';
+    src: url(../fonts/IBM_Plex_Serif/IBMPlexSerif-Regular.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url(../fonts/Fira_Sans/FiraSans-Regular.ttf) format('truetype')
+}
